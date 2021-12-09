@@ -62,7 +62,7 @@ variable "budget_amount" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created."
   type        = string
-  default     = "fldr"
+  default     = "fdr"
 }
 
 variable "project_prefix" {

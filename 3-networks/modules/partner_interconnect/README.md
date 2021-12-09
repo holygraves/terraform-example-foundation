@@ -4,7 +4,7 @@ This module implements the recommendation proposed in [Establishing 99.99% Avail
 
 ## Prerequisites
 
-1. Provisioning of four [VLAN attachments](https://cloud.google.com/network-connectivity/docs/interconnect/concepts/partner-overview) in the Hub project in the specified environment. That would be the `prj-c-{base|restricted}-net-hub` under the folder `fldr-common` in case of Hub and Spoke architecture.
+1. Provisioning of four [VLAN attachments](https://cloud.google.com/network-connectivity/docs/interconnect/concepts/partner-overview) in the Hub project in the specified environment. That would be the `prj-c-{base|restricted}-net-hub` under the folder `fdr-common` in case of Hub and Spoke architecture.
 
 Without Hub and Spoke enabled VLAN attachments will be created in `prj-{p|n|d}-shared-{base|restricted}` under corresponding environment's folder.
 
@@ -21,7 +21,7 @@ Without Hub and Spoke enabled VLAN attachments will be created in `prj-{p|n|d}-s
 | cloud\_router\_labels | A map of suffixes for labelling vlans with four entries like "vlan\_1" => "suffix1" with keys from `vlan_1` to `vlan_4`. | `map(string)` | `{}` | no |
 | enable\_hub\_and\_spoke | Support hub and spoke architecture | `string` | `false` | no |
 | environment | Environment in which to deploy the Partner Interconnect, must be 'common' if enable\_hub\_and\_spoke=true | `string` | `null` | no |
-| folder\_prefix | Name prefix to use for folders created. | `string` | `"fldr"` | no |
+| folder\_prefix | Name prefix to use for folders created. | `string` | `"fdr"` | no |
 | org\_id | Organization ID | `string` | n/a | yes |
 | parent\_folder | Optional - if using a folder for testing. | `string` | `""` | no |
 | preactivate | Preactivate Partner Interconnect attachments, works only for level3 Partner Interconnect | `string` | `false` | no |

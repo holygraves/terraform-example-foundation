@@ -21,7 +21,7 @@ variable "terraform_service_account" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created."
   type        = string
-  default     = "fldr"
+  default     = "fdr"
 }
 
 variable "parent_folder" {

@@ -31,7 +31,7 @@ control 'non-production' do
   title 'gcp step 2-envs test non-production'
   describe google_resourcemanager_folder(name: nonprod_env_folder) do
     it { should exist }
-    its('display_name') { should eq 'fldr-non-production' }
+    its('display_name') { should eq 'fdr-non-production' }
   end
 
   describe google_project(project: nonprod_monitoring_project_id) do

@@ -166,7 +166,7 @@ the following steps:
 | bucket\_prefix | Name prefix to use for state bucket created. | `string` | `"bkt"` | no |
 | cloud\_source\_repos | List of Cloud Source Repositories created during bootstrap project build stage for use with Cloud Build. | `list(string)` | <pre>[<br>  "gcp-org",<br>  "gcp-environments",<br>  "gcp-networks",<br>  "gcp-projects"<br>]</pre> | no |
 | default\_region | Default region to create resources where applicable. | `string` | `"us-central1"` | no |
-| folder\_prefix | Name prefix to use for folders created. Should be the same in all steps. | `string` | `"fldr"` | no |
+| folder\_prefix | Name prefix to use for folders created. Should be the same in all steps. | `string` | `"fdr"` | no |
 | group\_billing\_admins | Google Group for GCP Billing Administrators | `string` | n/a | yes |
 | group\_org\_admins | Google Group for GCP Organization Administrators | `string` | n/a | yes |
 | org\_id | GCP Organization ID | `string` | n/a | yes |

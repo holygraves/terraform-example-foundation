@@ -32,7 +32,7 @@ control 'production' do
 
   describe google_resourcemanager_folder(name: prod_env_folder) do
     it { should exist }
-    its('display_name') { should eq 'fldr-production' }
+    its('display_name') { should eq 'fdr-production' }
   end
 
   describe google_project(project: prod_monitoring_project_id) do

@@ -96,7 +96,7 @@ variable "project_prefix" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fldr"
+  default     = "fdr"
 }
 
 variable "enable_hub_and_spoke" {

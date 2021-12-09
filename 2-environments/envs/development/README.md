@@ -4,7 +4,7 @@
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | billing\_account | The ID of the billing account to associate this project with | `string` | n/a | yes |
-| folder\_prefix | Name prefix to use for folders created. Should be the same in all steps. | `string` | `"fdr"` | no |
+| folder\_prefix | Name prefix to use for folders created. Should be the same in all steps. | `string` | `"fld"` | no |
 | monitoring\_workspace\_users | Google Workspace or Cloud Identity group that have access to Monitoring Workspaces. | `string` | n/a | yes |
 | org\_id | The organization id for the associated services | `string` | n/a | yes |
 | parent\_folder | Optional - for an organization with existing projects or for development/validation. It will place all the example foundation resources under the provided folder instead of the root organization. The value is the numeric folder ID. The folder must already exist. Must be the same value used in previous step. | `string` | `""` | no |

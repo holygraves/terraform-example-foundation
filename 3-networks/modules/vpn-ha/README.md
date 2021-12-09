@@ -24,7 +24,7 @@ If you are not able to use Dedicated Interconnect or Partner Interconnect you ca
 | default\_region1 | Default region 1 for Cloud Routers | `string` | n/a | yes |
 | default\_region2 | Default region 2 for Cloud Routers | `string` | n/a | yes |
 | environment | Environment for the VPN configuration. Valid options are development, non-production, production | `string` | n/a | yes |
-| folder\_prefix | Name prefix to use for folders created. | `string` | `"fdr"` | no |
+| folder\_prefix | Name prefix to use for folders created. | `string` | `"fld"` | no |
 | on\_prem\_router\_ip\_address1 | On-Prem Router IP address | `string` | n/a | yes |
 | on\_prem\_router\_ip\_address2 | On-Prem Router IP address | `string` | n/a | yes |
 | org\_id | Organization ID | `string` | n/a | yes |

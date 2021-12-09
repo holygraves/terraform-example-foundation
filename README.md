@@ -38,7 +38,7 @@ After executing this step, you will have the following structure:
 
 ```
 example-organization/
-└── fdr-bootstrap
+└── fld-bootstrap
     ├── prj-b-cicd
     └── prj-b-seed
 ```
@@ -54,7 +54,7 @@ This will create the following folder & project structure:
 
 ```
 example-organization
-└── fdr-common
+└── fld-common
     ├── prj-c-logging
     ├── prj-c-base-net-hub
     ├── prj-c-billing-logs
@@ -104,17 +104,17 @@ This will create the following folder & project structure:
 
 ```
 example-organization
-└── fdr-development
+└── fld-development
     ├── prj-d-monitoring
     ├── prj-d-secrets
     ├── prj-d-shared-base
     └── prj-d-shared-restricted
-└── fdr-non-production
+└── fld-non-production
     ├── prj-n-monitoring
     ├── prj-n-secrets
     ├── prj-n-shared-base
     └── prj-n-shared-restricted
-└── fdr-production
+└── fld-production
     ├── prj-p-monitoring
     ├── prj-p-secrets
     ├── prj-p-shared-base
@@ -163,7 +163,7 @@ Running this code as-is should generate a structure as shown below:
 
 ```
 example-organization/
-└── fdr-development
+└── fld-development
     ├── prj-bu1-d-env-secrets
     ├── prj-bu1-d-sample-floating
     ├── prj-bu1-d-sample-base
@@ -174,7 +174,7 @@ example-organization/
     ├── prj-bu2-d-sample-base
     ├── prj-bu2-d-sample-restrict
     └── prj-bu2-d-sample-peering
-└── fdr-non-production
+└── fld-non-production
     ├── prj-bu1-n-env-secrets
     ├── prj-bu1-n-sample-floating
     ├── prj-bu1-n-sample-base
@@ -185,7 +185,7 @@ example-organization/
     ├── prj-bu2-n-sample-base
     ├── prj-bu2-n-sample-restrict
     └── prj-bu2-n-sample-peering
-└── fdr-production
+└── fld-production
     ├── prj-bu1-p-env-secrets
     ├── prj-bu1-p-sample-floating
     ├── prj-bu1-p-sample-base
@@ -196,7 +196,7 @@ example-organization/
     ├── prj-bu2-p-sample-base
     ├── prj-bu2-p-sample-restrict
     └── prj-bu2-p-sample-peering
-└── fdr-common
+└── fld-common
     ├── prj-bu1-c-infra-pipeline
     └── prj-bu2-c-infra-pipeline
 ```
@@ -219,7 +219,7 @@ Once all steps above have been executed your GCP organization should represent t
 
 ```
 example-organization
-└── fdr-common
+└── fld-common
     ├── prj-c-logging
     ├── prj-c-base-net-hub
     ├── prj-c-billing-logs
@@ -230,7 +230,7 @@ example-organization
     ├── prj-c-secrets
     ├── prj-bu1-c-infra-pipeline
     └── prj-bu2-c-infra-pipeline
-└── fdr-development
+└── fld-development
     ├── prj-bu1-d-env-secrets
     ├── prj-bu1-d-sample-floating
     ├── prj-bu1-d-sample-base
@@ -245,7 +245,7 @@ example-organization
     ├── prj-d-secrets
     ├── prj-d-shared-base
     └── prj-d-shared-restricted
-└── fdr-non-production
+└── fld-non-production
     ├── prj-bu1-n-env-secrets
     ├── prj-bu1-n-sample-floating
     ├── prj-bu1-n-sample-base
@@ -260,7 +260,7 @@ example-organization
     ├── prj-n-secrets
     ├── prj-n-shared-base
     └── prj-n-shared-restricted
-└── fdr-production
+└── fld-production
     ├── prj-bu1-p-env-secrets
     ├── prj-bu1-p-sample-floating
     ├── prj-bu1-p-sample-base
@@ -275,7 +275,7 @@ example-organization
     ├── prj-p-secrets
     ├── prj-p-shared-base
     └── prj-p-shared-restricted
-└── fdr-bootstrap
+└── fld-bootstrap
     ├── prj-b-cicd
     └── prj-b-seed
 ```

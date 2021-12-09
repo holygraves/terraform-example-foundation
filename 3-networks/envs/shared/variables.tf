@@ -88,7 +88,7 @@ variable "parent_folder" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fdr"
+  default     = "fld"
 }
 
 variable "base_hub_windows_activation_enabled" {

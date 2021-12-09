@@ -156,7 +156,7 @@ variable "parent_folder" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created."
   type        = string
-  default     = "fdr"
+  default     = "fld"
 }
 
 variable "allow_all_egress_ranges" {

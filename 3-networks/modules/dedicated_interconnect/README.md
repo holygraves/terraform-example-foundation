@@ -4,7 +4,7 @@ This module implements the recommendation proposed in [Establishing 99.99% Avail
 
 ## Prerequisites
 
-1. Provisioning of four [Dedicated Interconnect connections](https://cloud.google.com/network-connectivity/docs/interconnect/concepts/dedicated-overview) in the `prj-interconnect` project created in step `1-org` under folder `fdr-common`.
+1. Provisioning of four [Dedicated Interconnect connections](https://cloud.google.com/network-connectivity/docs/interconnect/concepts/dedicated-overview) in the `prj-interconnect` project created in step `1-org` under folder `fld-common`.
 
 ## Usage
 
@@ -18,7 +18,7 @@ This module implements the recommendation proposed in [Establishing 99.99% Avail
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | cloud\_router\_labels | A map of suffixes for labelling vlans with four entries like "vlan\_1" => "suffix1" with keys from `vlan_1` to `vlan_4`. | `map(string)` | `{}` | no |
-| folder\_prefix | Name prefix to use for folders created. | `string` | `"fdr"` | no |
+| folder\_prefix | Name prefix to use for folders created. | `string` | `"fld"` | no |
 | org\_id | Organization ID | `string` | n/a | yes |
 | parent\_folder | Optional - if using a folder for testing. | `string` | `""` | no |
 | peer\_asn | Peer BGP Autonomous System Number (ASN). | `number` | n/a | yes |

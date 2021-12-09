@@ -32,7 +32,7 @@ variable "instance_region" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fdr"
+  default     = "fld"
 }
 
 variable "parent_folder" {
